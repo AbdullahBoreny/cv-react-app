@@ -1,0 +1,9 @@
+
+.general_info {
+    display: flex;
+}
+
+
+label {
+    display: block;
+}
