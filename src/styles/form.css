@@ -1,9 +1,13 @@
 
 .general_info {
     display: flex;
+    margin-right: 10px;
 }
 
 
 label {
     display: block;
+}
+.container {
+    display: flex;
 }

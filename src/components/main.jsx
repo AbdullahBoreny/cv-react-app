@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Form from './Form.jsx'
-
+import "../styles/App.css"
+import App from './App'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Form/>
+    <App/>
   </StrictMode>,
 )

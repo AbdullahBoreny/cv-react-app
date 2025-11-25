@@ -1,9 +1,8 @@
-/* Filename - App.css */
-/* It containds the Form and Page Styling*/
 
 body {
     background: #f3f3f3;
     text-align: center;
+   
 }
 .App {
     background-color: #fff;
@@ -23,9 +22,7 @@ h1 {
     color: #327c35;
 }
 
-fieldset {
-    border: none;
-}
+
 
 input {
     display: block;
@@ -37,20 +34,7 @@ input {
     border-radius: 3px;
     font-size: 12px;
 }
-input[type="radio"],
-input[type="checkbox"] {
-    display: inline;
-    width: 10%;
-}
-select {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
+
 
 label {
     font-size: 15px;
@@ -64,19 +48,14 @@ label {
 }
 
 button {
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    margin: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
     border: none;
     color: white;
     cursor: pointer;
     background-color: #4caf50;
     width: 40%;
     font-size: 16px;
-}
-textarea {
-    resize: none;
-    width: 98%;
-    min-height: 100px;
-    max-height: 150px;
 }
